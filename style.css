@@ -113,8 +113,21 @@ p {
   border-radius: 5px;
   text-decoration: none;
 }
-@media (max-width: 900px) {
-  img {
-    display: none;
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 32px;
+    line-height: 1.5;
+  }
+  p {
+    text-align: justify;
+  }
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
   }
 }
